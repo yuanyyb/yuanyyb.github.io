@@ -12,12 +12,7 @@ namespace ORM
     public class BaseOrm
     {
         //string constring = "Data Source=bds274600440.my3w.com;Initial Catalog=bds274600440_db;User ID=bds274600440;Password=yyb18yyb;";
-        string constring = "data source=bds274600440.my3w.com;initial catalog=bds274600440_db;persist security info=True;user id=bds274600440;password=yyb18yyb;";
-
-        
-
-        
-        public List<UserInfo> GetAll() {
+        public List<UserInfo> GetAll(string constring) {
             IDbConnection conn = new SqlConnection(constring);
             List<UserInfo> userlist = new List<UserInfo>();
             UserInfo user = new UserInfo();

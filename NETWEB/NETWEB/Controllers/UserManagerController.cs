@@ -16,7 +16,8 @@ namespace NETWEB.Controllers
         public ActionResult Index()
         {
             BaseOrm m = new BaseOrm();
-            List<UserInfo> list = m.GetAll();
+            //List<UserInfo> list = new Class1().getUser();
+            List<UserInfo> list = m.GetAll(System.Configuration.ConfigurationManager.ConnectionStrings["connstr"].ToString());
             ViewData.Model = list;
             return View();
         }
