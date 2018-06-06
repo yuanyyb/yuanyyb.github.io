@@ -1,0 +1,5 @@
+D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\DAL\bin\Debug\DAL.dll
+D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\DAL\bin\Debug\DAL.pdb
+D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\DAL\obj\Debug\DAL.dll
+D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\DAL\obj\Debug\DAL.pdb
