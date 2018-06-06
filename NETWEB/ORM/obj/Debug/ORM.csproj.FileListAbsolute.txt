@@ -1,0 +1,12 @@
+c:\Users\user\documents\visual studio 2013\Projects\NETWEB\ORM\obj\Debug\ORM.csprojResolveAssemblyReference.cache
+c:\Users\user\documents\visual studio 2013\Projects\NETWEB\ORM\bin\Debug\ORM.dll
+c:\Users\user\documents\visual studio 2013\Projects\NETWEB\ORM\bin\Debug\ORM.pdb
+c:\Users\user\documents\visual studio 2013\Projects\NETWEB\ORM\bin\Debug\Dapper.dll
+c:\Users\user\documents\visual studio 2013\Projects\NETWEB\ORM\bin\Debug\Dapper.xml
+c:\Users\user\documents\visual studio 2013\Projects\NETWEB\ORM\obj\Debug\ORM.dll
+c:\Users\user\documents\visual studio 2013\Projects\NETWEB\ORM\obj\Debug\ORM.pdb
+c:\Users\user\documents\visual studio 2013\Projects\NETWEB\ORM\bin\Debug\Model.dll
+c:\Users\user\documents\visual studio 2013\Projects\NETWEB\ORM\bin\Debug\EntityFramework.dll
+c:\Users\user\documents\visual studio 2013\Projects\NETWEB\ORM\bin\Debug\Model.pdb
+c:\Users\user\documents\visual studio 2013\Projects\NETWEB\ORM\bin\Debug\EntityFramework.xml
+c:\Users\user\documents\visual studio 2013\Projects\NETWEB\ORM\bin\Debug\zh-Hans\EntityFramework.resources.dll

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="579b3b3c2c7c4da1abbe57041b90e1f8" Name="Diagram1">
+        <EntityTypeShape EntityType="Model.ActionInfo" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Books" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Department" Width="1.5" PointX="3" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.FileInfo" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.KeyWordsRank" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.R_UserInfo_ActionInfo" Width="1.5" PointX="7.5" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.RoleInfo" Width="1.5" PointX="3" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SearchDetails" Width="1.5" PointX="9.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.UserInfo" Width="1.5" PointX="5.25" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.WF_Instance" Width="1.5" PointX="10" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.WF_StepInfo" Width="1.5" PointX="12.25" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.WF_Temp" Width="1.5" PointX="7.75" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.T_Group" Width="1.5" PointX="11.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.T_Project" Width="1.5" PointX="11.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.T_User" Width="1.5" PointX="0.75" PointY="12.75" IsExpanded="true" />
+        <AssociationConnector Association="Model.FK_ActionInfoR_UserInfo_ActionInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_UserInfoR_UserInfo_ActionInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_WF_InstanceWF_StepInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_WF_TempWF_Instance" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.DepartmentActionInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.RoleInfoActionInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.UserInfoDepartment" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.UserInfoRoleInfo" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
