@@ -1,5 +1,13 @@
+D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\DAL\bin\Debug\DAL.dll.config
 D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\DAL\bin\Debug\DAL.dll
 D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\DAL\bin\Debug\DAL.pdb
+D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\DAL\bin\Debug\EntityFramework.dll
+D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\DAL\bin\Debug\IDAL.dll
+D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\DAL\bin\Debug\Model.dll
+D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\DAL\bin\Debug\IDAL.pdb
+D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\DAL\bin\Debug\Model.pdb
+D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\DAL\bin\Debug\EntityFramework.xml
+D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\DAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
 D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\DAL\obj\Debug\DAL.dll
 D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\DAL\obj\Debug\DAL.pdb

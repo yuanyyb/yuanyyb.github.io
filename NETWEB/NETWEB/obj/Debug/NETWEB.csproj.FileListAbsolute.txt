@@ -62,7 +62,6 @@ D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\NETWEB\bin\Microso
 D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\NETWEB\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
 D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\NETWEB\bin\Model.dll
 D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\NETWEB\bin\Newtonsoft.Json.dll
-D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\NETWEB\bin\ORM.dll
 D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\NETWEB\bin\System.Net.Http.dll
 D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\NETWEB\bin\System.Net.Http.Formatting.dll
 D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\NETWEB\bin\System.Net.Http.WebRequest.dll
@@ -76,9 +75,7 @@ D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\NETWEB\bin\System.
 D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\NETWEB\bin\System.Web.WebPages.dll
 D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\NETWEB\bin\System.Web.WebPages.Razor.dll
 D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\NETWEB\bin\WebGrease.dll
-D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\NETWEB\bin\Dapper.dll
 D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\NETWEB\bin\Model.pdb
-D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\NETWEB\bin\ORM.pdb
 D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\NETWEB\bin\EntityFramework.xml
 D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\NETWEB\bin\Newtonsoft.Json.xml
 D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\NETWEB\bin\System.Net.Http.xml
@@ -91,7 +88,6 @@ D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\NETWEB\bin\System.
 D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\NETWEB\bin\System.Web.WebPages.xml
 D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\NETWEB\bin\System.Web.WebPages.Deployment.xml
 D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\NETWEB\bin\System.Web.WebPages.Razor.xml
-D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\NETWEB\bin\Dapper.xml
 D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\NETWEB\bin\zh-Hans\EntityFramework.resources.dll
 D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\NETWEB\bin\zh-Hans\System.Net.Http.resources.dll
 D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\NETWEB\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
@@ -108,3 +104,13 @@ D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\NETWEB\bin\zh-Hans
 D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\NETWEB\obj\Debug\NETWEB.csprojResolveAssemblyReference.cache
 D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\NETWEB\obj\Debug\NETWEB.dll
 D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\NETWEB\obj\Debug\NETWEB.pdb
+D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\NETWEB\bin\Common.dll
+D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\NETWEB\bin\IBLL.dll
+D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\NETWEB\bin\Memcached.ClientLibrary.dll
+D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\NETWEB\bin\PanGu.Lucene.Analyzer.dll
+D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\NETWEB\bin\Lucene.Net.dll
+D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\NETWEB\bin\PanGu.HighLight.dll
+D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\NETWEB\bin\log4net.dll
+D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\NETWEB\bin\ICSharpCode.SharpZipLib.dll
+D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\NETWEB\bin\Common.pdb
+D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\NETWEB\bin\IBLL.pdb

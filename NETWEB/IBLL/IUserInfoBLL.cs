@@ -1,12 +1,13 @@
-﻿using System;
+﻿using Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BLL
+namespace IBLL
 {
-    public class Class1
+    public interface IUserInfoBLL:IBaseBLL<UserInfo>
     {
     }
 }
