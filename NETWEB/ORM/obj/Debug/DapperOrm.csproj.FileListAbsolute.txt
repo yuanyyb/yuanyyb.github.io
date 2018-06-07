@@ -1,0 +1,12 @@
+D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\ORM\bin\Debug\ORM.dll
+D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\ORM\bin\Debug\ORM.pdb
+D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\ORM\bin\Debug\Dapper.dll
+D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\ORM\bin\Debug\Model.dll
+D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\ORM\bin\Debug\EntityFramework.dll
+D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\ORM\bin\Debug\Model.pdb
+D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\ORM\bin\Debug\Dapper.xml
+D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\ORM\bin\Debug\EntityFramework.xml
+D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\ORM\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\ORM\obj\Debug\DapperOrm.csprojResolveAssemblyReference.cache
+D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\ORM\obj\Debug\ORM.dll
+D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\ORM\obj\Debug\ORM.pdb
