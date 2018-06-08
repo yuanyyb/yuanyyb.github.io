@@ -13,17 +13,17 @@ namespace NETWEB.Models
         /// 捕获异常
         /// </summary>
         /// <param name="filterContext"></param>
-       // public static Queue<Exception> ExceptionQueue = new Queue<Exception>();
-        public static IRedisClientsManager clientManager = new PooledRedisClientManager(new string[] { "127.0.0.1:11993"});
+       public static Queue<Exception> ExceptionQueue = new Queue<Exception>();
+        //public static IRedisClientsManager clientManager = new PooledRedisClientManager(new string[] { "localhost:11993"});
         //public static IRedisClientsManager clientManager = new PooledRedisClientManager();
-        public static IRedisClient redisClent = clientManager.GetClient();
+        //public static IRedisClient redisClent = clientManager.GetClient();
         public override void OnException(ExceptionContext filterContext)
         {
 
                base.OnException(filterContext);
-               //ExceptionQueue.Enqueue(filterContext.Exception);//将异常信息写到队列中。
+               ExceptionQueue.Enqueue(filterContext.Exception);//将异常信息写到队列中。
              
-              redisClent.EnqueueItemOnList("exception", filterContext.Exception.ToString());
+              //redisClent.EnqueueItemOnList("exception", filterContext.Exception.ToString());
                filterContext.HttpContext.Response.Redirect("/error.html");
         }
 

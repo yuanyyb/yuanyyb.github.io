@@ -28,7 +28,9 @@ namespace NETWEB.Controllers
 
         public ActionResult Index()
         {
-            
+            int i = 0;
+            int j = 1;
+            int f = j / i;
             int pindex = !string.IsNullOrEmpty(Request["pindex"]) ? int.Parse(Request["pindex"]) : 1;
             int psize = !string.IsNullOrEmpty(Request["psize"]) ? int.Parse(Request["psize"]) : 10;
             List<UserInfo> list = new List<UserInfo>();

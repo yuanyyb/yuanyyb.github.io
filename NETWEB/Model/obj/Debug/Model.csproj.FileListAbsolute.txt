@@ -14,3 +14,4 @@ D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\Model\bin\Debug\En
 D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\Model\bin\Debug\zh-Hans\EntityFramework.resources.dll
 D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\Model\obj\Debug\Model.dll
 D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\Model\obj\Debug\Model.pdb
+D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache

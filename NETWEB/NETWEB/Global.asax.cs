@@ -40,38 +40,38 @@ namespace NETWEB
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             string fileLogPath = Server.MapPath("/Log/");
 
-            ////开启一个线程扫描异常队列。
-            //ThreadPool.QueueUserWorkItem((a) =>
-            //{
-            //    while (true)
-            //    {
-            //        //if (MyExceptionAttribute.ExceptionQueue.Count > 0)//表示队列中有数据
-            //        if (MyExceptionAttribute.redisClent.GetListCount("exception") > 0)
-            //        {
-            //            // Exception ex=MyExceptionAttribute.ExceptionQueue.Dequeue();//出队
-            //            string errorMsg = MyExceptionAttribute.redisClent.DequeueItemFromList("exception");
-            //            if (!string.IsNullOrEmpty(errorMsg))
-            //            {
-            //                //将异常信息写到文件中。
-            //                //string fileName = DateTime.Now.ToString("yyyy-MM-dd");
-            //                //File.AppendAllText(fileLogPath + fileName + ".txt", ex.ToString(), Encoding.UTF8);
-            //                ILog logger = LogManager.GetLogger("errorMsg");
-            //                logger.Error(errorMsg);
-            //            }
-            //            else
-            //            {
-            //                Thread.Sleep(3000);//队列没有数据，让当前的线程休息，避免了造成CPU空转。
-            //            }
-            //        }
-            //        else
-            //        {
-            //            Thread.Sleep(3000);
-            //        }
-            //    }
+            //开启一个线程扫描异常队列。
+            ThreadPool.QueueUserWorkItem((a) =>
+            {
+                while (true)
+                {
+                    if (MyExceptionAttribute.ExceptionQueue.Count > 0)//表示队列中有数据
+                    //if (MyExceptionAttribute.redisClent.GetListCount("exception") > 0)
+                    {
+                         Exception ex=MyExceptionAttribute.ExceptionQueue.Dequeue();//出队
+                        //string errorMsg = MyExceptionAttribute.redisClent.DequeueItemFromList("exception");
+                        if (!string.IsNullOrEmpty(ex.Message))
+                        {
+                            //将异常信息写到文件中。
+                            //string fileName = DateTime.Now.ToString("yyyy-MM-dd");
+                            //File.AppendAllText(fileLogPath + fileName + ".txt", ex.ToString(), Encoding.UTF8);
+                            ILog logger = LogManager.GetLogger("errorMsg");
+                            logger.Error(ex.Message);
+                        }
+                        else
+                        {
+                            Thread.Sleep(3000);//队列没有数据，让当前的线程休息，避免了造成CPU空转。
+                        }
+                    }
+                    else
+                    {
+                        Thread.Sleep(3000);
+                    }
+                }
 
 
 
-            //}, fileLogPath);
+            }, fileLogPath);
         }
 
     }

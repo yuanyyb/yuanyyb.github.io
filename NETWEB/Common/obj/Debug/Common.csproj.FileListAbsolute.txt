@@ -4,3 +4,4 @@ D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\Common\bin\Debug\N
 D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\Common\bin\Debug\Newtonsoft.Json.xml
 D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\Common\obj\Debug\Common.dll
 D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\Common\obj\Debug\Common.pdb
+D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
