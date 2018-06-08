@@ -11,7 +11,7 @@ namespace BLL
     {
         public override void SetCurrentDal()
         {
-            CurrentDal = this.GetDbSession.UserInfoDAL;
+            CurrentDAL = this.GetDbSession.UserInfoDAL;
         }
 
     }

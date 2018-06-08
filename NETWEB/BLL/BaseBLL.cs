@@ -14,7 +14,7 @@ namespace BLL
        {
            get { return DBSessionFactory.CreateDbSession(); }
        }
-       public IDAL.IBaseDAL<T> CurrentDal { get; set; }
+       public IDAL.IBaseDAL<T> CurrentDAL { get; set; }
        public abstract void SetCurrentDal();
        public BaseBLL()
        {
@@ -29,7 +29,7 @@ namespace BLL
         /// <returns></returns>
         public IQueryable<T> LoadEntities(System.Linq.Expressions.Expression<Func<T, bool>> whereLambda)
         {
-            return this.CurrentDal.LoadEntities(whereLambda);
+            return this.CurrentDAL.LoadEntities(whereLambda);
         }
         /// <summary>
         /// 分页方法
@@ -44,7 +44,7 @@ namespace BLL
         /// <returns></returns>
         public IQueryable<T> LoadPageEntities<s>(int pageIndex, int pageSize, out int totalCount, System.Linq.Expressions.Expression<Func<T, bool>> whereLambda, System.Linq.Expressions.Expression<Func<T, s>> orderbyLambda, bool isAsc)
         {
-            return this.CurrentDal.LoadPageEntities<s>(pageIndex, pageSize, out totalCount, whereLambda, orderbyLambda, isAsc);
+            return this.CurrentDAL.LoadPageEntities<s>(pageIndex, pageSize, out totalCount, whereLambda, orderbyLambda, isAsc);
         }
         /// <summary>
         /// 删除
@@ -53,7 +53,7 @@ namespace BLL
         /// <returns></returns>
         public bool DeleteEntity(T entity)
         {
-            this.CurrentDal.DeleteEntity(entity);
+            this.CurrentDAL.DeleteEntity(entity);
             return this.GetDbSession.SaveChanges();
         }
         /// <summary>
@@ -63,7 +63,7 @@ namespace BLL
         /// <returns></returns>
         public bool UpdateEntity(T entity)
         {
-            this.CurrentDal.UpdateEntity(entity);
+            this.CurrentDAL.UpdateEntity(entity);
             return this.GetDbSession.SaveChanges();
         }
         /// <summary>
@@ -73,7 +73,7 @@ namespace BLL
         /// <returns></returns>
         public T AddEntity(T entity)
         {
-            this.CurrentDal.AddEntity(entity);
+            this.CurrentDAL.AddEntity(entity);
             this.GetDbSession.SaveChanges();
             return entity;
         }

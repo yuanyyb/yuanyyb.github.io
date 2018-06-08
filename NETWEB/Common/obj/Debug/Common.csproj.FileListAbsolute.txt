@@ -1,6 +1,6 @@
 D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\Common\bin\Debug\Common.dll
 D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\Common\bin\Debug\Common.pdb
-D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\Common\obj\Debug\Common.dll
-D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\Common\obj\Debug\Common.pdb
 D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\Common\bin\Debug\Newtonsoft.Json.dll
 D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\Common\bin\Debug\Newtonsoft.Json.xml
+D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\Common\obj\Debug\Common.dll
+D:\Private\PrivateProject\GitBubTest\yuanyyb.github.io\NETWEB\Common\obj\Debug\Common.pdb

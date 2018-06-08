@@ -46,7 +46,7 @@ namespace DAL
             return temp;
         }
         /// <summary>
-        /// 删除数据
+        /// 删除数据(硬删除，软删除执行更新)
         /// </summary>
         /// <param name="entity"></param>
         /// <returns></returns>

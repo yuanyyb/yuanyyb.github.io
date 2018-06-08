@@ -62,6 +62,7 @@ namespace NETWEB.Controllers
 
         }
         #endregion
+
         #region 验证码
         public ActionResult ShowValidate()
         {
@@ -72,6 +73,7 @@ namespace NETWEB.Controllers
             return File(buffer, "image/jpeg");
         }
         #endregion
+
         #region 校验Cookie的信息
         private void CheckCookieInfo()
         {
